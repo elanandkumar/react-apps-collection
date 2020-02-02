@@ -1,0 +1,33 @@
+.robot-card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #CCC;
+    border-radius: 10px;
+    min-width: 175px;
+    margin: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.robot-card .name {
+    color: blue;
+    margin: 10px 0;
+}
+
+.robot-card .avatar {
+    width: 100px;
+    transition-duration: 0.3s;
+}
+
+.robot-card .avatar:hover {
+    transform: scale(1.25);
+}
+
+.robot-card .type {
+
+}
+
+.robot-card .exp {
+
+}

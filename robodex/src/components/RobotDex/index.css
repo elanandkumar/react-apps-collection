@@ -1,0 +1,14 @@
+.robots-dex .info {
+    padding: 10px 0 5px;
+}
+.robots-dex .info-winner {
+    background: darkseagreen;
+}
+.robots-dex .info-looser {
+    background: tomato;
+}
+.robots-dex .robots-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
